@@ -8,5 +8,3 @@ LEAN.run = function(lean_)
     print(lean_)
     --loadstring(lean_)()
 end
-
-return LEAN
