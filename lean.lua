@@ -6,7 +6,7 @@ LEAN.run = function(lean_)
         code = string.gsub(lean_,"LEAN".._lean[i],string.sub(lean,i,i))
     end
     print(lean_)
-    loadstring(lean_)()
+    --loadstring(lean_)()
 end
 
 return LEAN
